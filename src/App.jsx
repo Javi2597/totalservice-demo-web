@@ -222,7 +222,7 @@ function Hero() {
       }} />
 
       <div style={{ position: 'relative', zIndex: 10, maxWidth: 900, margin: '0 auto', padding: '0 24px', textAlign: 'center' }}>
-        <div style={{
+        {/* <div style={{
           display: 'inline-flex', alignItems: 'center', gap: 8,
           background: 'rgba(37,99,235,0.2)', border: '1px solid rgba(96,165,250,0.35)',
           color: '#93c5fd', fontSize: 13, fontWeight: 600,
@@ -230,7 +230,7 @@ function Hero() {
         }}>
           <CheckCircle2 size={14} />
           Empresa verificada · Argentina
-        </div>
+        </div> */}
 
         <h1 style={{
           fontFamily: 'Montserrat, sans-serif', fontWeight: 900,
@@ -289,7 +289,7 @@ function Hero() {
             </div>
           ))}
         </div>
-      </div>
+      </div>  
 
       <div style={{ position: 'absolute', bottom: 32, left: '50%', transform: 'translateX(-50%)', color: 'rgba(255,255,255,0.4)', animation: 'bounce 2s infinite' }}>
         <ChevronDown size={24} />
